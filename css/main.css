@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mySlides {
+  opacity: 0.5;
+  text-align: center;
+  width: 100%;
+  -webkit-transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+  transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+
+.slideshow {
+  overflow: hidden;
+  max-height: 90vh;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.slideshow h1 {
+  font-size: 55px;
+  margin-bottom: 18px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#login, #createProfile {
+  float: right;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+}
+
+nav {
+  display: block;
+  height: 40px;
+}
+
+#createProfile {
+  float: left;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=main.css.map */

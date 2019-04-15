@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mySlides {
+    opacity: 0.5;
+    text-align: center;
+    width: 100%;
+    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+.slideshow {
+    overflow: hidden;
+    max-height: 90vh;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    h1 {
+        font-size: 55px;
+        margin-bottom: 18px;
+    }
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #login,#createProfile {
+    //   display: block;
+      float: right;
+      vertical-align: middle;
+      display:flex;
+      justify-content:flex-end;
+      align-items:center;
+      height:40px;
+  }
+  nav {
+      display: block;
+      height: 40px;
+  }
+  #createProfile {
+      float: left;
+      margin-left: 10px;
+      
+  }

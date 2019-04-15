@@ -1,0 +1,14 @@
+.mainInfo {
+  -webkit-column-count: 3;
+          column-count: 3;
+}
+
+.mainInfo img {
+  border-radius: 50%;
+  max-width: 500px;
+}
+
+.mainInfo .text {
+  display: inline;
+}
+/*# sourceMappingURL=profile.css.map */
