@@ -27,21 +27,3 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #login,#createProfile {
-    //   display: block;
-      float: right;
-      vertical-align: middle;
-      display:flex;
-      justify-content:flex-end;
-      align-items:center;
-      height:40px;
-  }
-  nav {
-      display: block;
-      height: 40px;
-  }
-  #createProfile {
-      float: left;
-      margin-left: 10px;
-      
-  }

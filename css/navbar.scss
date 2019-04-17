@@ -1,0 +1,38 @@
+#login,
+#createProfile {
+    //   display: block;
+    float: right;
+    vertical-align: middle;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+}
+
+nav {
+    display: block;
+    height: 40px;
+    overflow: visible;
+}
+@media (max-width: 500px) {
+    #login {
+        display: inline-block;
+        width: 100%;
+        margin-left:auto;margin-right:auto;
+    }
+    nav {
+        height: 120px;
+    }
+}
+
+#createProfile {
+    float: left;
+    margin-left: 10px;
+
+
+    @media (max-width: 650px) {
+        p {
+            display: none;
+        }
+    }
+}

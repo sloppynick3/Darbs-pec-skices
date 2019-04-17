@@ -32,29 +32,4 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-
-#login, #createProfile {
-  float: right;
-  vertical-align: middle;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 40px;
-}
-
-nav {
-  display: block;
-  height: 40px;
-}
-
-#createProfile {
-  float: left;
-  margin-left: 10px;
-}
 /*# sourceMappingURL=main.css.map */
