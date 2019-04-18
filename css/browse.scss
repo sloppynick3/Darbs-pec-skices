@@ -1,3 +1,7 @@
+.hidden {
+    display: none !important;
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -38,11 +42,18 @@
         box-shadow: 0 2px 2px 0 rgba(134, 101, 101, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
     }
 
-    width: 500px;
+    width: 425px;
     height: 600px;
 
     @media (max-width:1000px) {
         height: inherit;
+    }
+
+}
+
+@media (max-width:1800px) and (min-width:1350px) {
+    .card {
+        width: 650px;
     }
 }
 

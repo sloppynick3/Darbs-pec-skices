@@ -1,3 +1,7 @@
+.hidden {
+  display: none !important;
+}
+
 .card {
   /* Add shadows to create the "card" effect */
   position: relative;
@@ -7,7 +11,7 @@
   transition: 0.3s;
   display: inline-block;
   overflow: hidden;
-  width: 500px;
+  width: 425px;
   height: 600px;
 }
 
@@ -44,6 +48,12 @@
 @media (max-width: 1000px) {
   .card {
     height: inherit;
+  }
+}
+
+@media (max-width: 1800px) and (min-width: 1350px) {
+  .card {
+    width: 650px;
   }
 }
 
