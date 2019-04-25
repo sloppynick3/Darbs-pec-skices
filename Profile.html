@@ -7,6 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Add piggie</title>
     <link rel="stylesheet" type="text/css" href="./css/profile.css">
+    <!-- Below we include the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css"
+        type="text/css" media="screen" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js">
+    </script>
 </head>
 
 <body>
@@ -49,21 +57,25 @@
         </div>
     </div>
     <!-- Gallery -->
-    <div style="margin: 20px;">
-        <section id="photos">
-            <img src="./assets/gallery1.jpg" alt="Gunea pig">
-            <img src="./assets/gallery2.jpg" alt="Gunea pig">
-            <img src="./assets/gallery3.jpg" alt="Gunea pig">
-            <img src="./assets/gallery4.jpg" alt="Gunea pig">
-            <img src="./assets/gallery5.jpg" alt="Gunea pig">
-            <img src="./assets/gallery6.jpg" alt="Gunea pig">
-            <img src="./assets/gallery7.jpg" alt="Gunea pig">
+    <div>
+        <section id="photos" style="text-align:center;">
+            <a data-fancybox="mygallery" href="./assets/gallery1.jpg"><img src="./assets/gallery1.jpg" alt="" /></a>
+            <a data-fancybox="mygallery" href="./assets/gallery2.jpg"><img src="./assets/gallery2.jpg" alt="" /></a>
+
+            <a data-fancybox="mygallery" href="./assets/gallery3.jpg"><img src="./assets/gallery3.jpg" alt="" /></a>
+            <a data-fancybox="mygallery" href="./assets/gallery4.jpg"><img src="./assets/gallery4.jpg" alt="" /></a>
+            <a data-fancybox="mygallery" href="./assets/gallery5.jpg"><img src="./assets/gallery5.jpg" alt="" /></a>
+            <a data-fancybox="mygallery" href="./assets/gallery6.jpg"><img src="./assets/gallery6.jpg" alt="" /></a>
+
+            <a data-fancybox="mygallery" href="./assets/gallery7.jpg"><img src="./assets/gallery7.jpg" alt="" /></a>
         </section>
     </div>
 
-    <div style="display:flex;justify-content:center;align-items:center;">
-        <div></div>
-    </div>
+    <script>
+        $(document).ready(function () {
+            $("[data-fancybox]").fancybox();
+        });
+    </script>
 </body>
 
 </html>
