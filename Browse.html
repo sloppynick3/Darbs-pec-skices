@@ -12,17 +12,22 @@
 
 <body>
     <nav>
-        <a href="javascript:;" onclick="showRegister()">
-            <div id="createProfile"><span style="font-size: 40px; margin-right:10px;">&#43;</span>
-                <p>Create profile for
-                    your piggy</p>
-            </div>
-        </a>
-        <div id="login">
-            <input type="text" name="username" placeholder="Username">
-            <input type="password" name="password" placeholder="Password" autocomplete="off">
-            <input type="submit" value="Submit">
-        </div>
+        <ul>
+            <li><a href="javascript:;" onclick="showRegister()">
+                    <div id="createProfile"><span style="font-size: 40px; margin-right:10px;">&#43;</span>
+                        <p>Create profile for
+                            your piggy</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <form id="login">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="password" name="password" placeholder="Password" autocomplete="off">
+                    <input type="button" value="Submit" onclick="location.href = './Browse.html'">
+                </form>
+            </li>
+        </ul>
     </nav>
     <div class="row">
         <div class="card">
