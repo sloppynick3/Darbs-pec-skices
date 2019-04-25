@@ -1,3 +1,8 @@
+body,
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .hidden {
   display: none !important;
 }
